@@ -89,7 +89,7 @@ nav>ul>li>a {
     width: 50%;
     padding: 20px;
     margin-top: 5rem;
-   
+
 }
 
 .banner-title {
@@ -103,7 +103,7 @@ nav>ul>li>a {
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
-    
+
 }
 
 .banner-input {
@@ -133,25 +133,69 @@ nav>ul>li>a {
 }
 
 /* main section-2 */
-.section-2{
+.section-2 {
     margin-top: 6rem;
 }
+
 .destination {
     text-align: center;
 }
-.destination-img{
+
+.destination-img {
     margin: 4rem 1rem 0 1rem;
 }
-.row{
+
+.row {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
-.destination-img>.row>img{
+
+.destination-img>.row>img {
     width: 50%;
 }
 
+/* section-3 */
+.section-3 {
+    margin-top: 7rem;
+}
 
+.section-3>.heading {
+    text-align: center;
+}
+
+.card .row .hotel-card {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    width: 573px;
+    height: 284px;
+    padding-left: 2rem;
+}
+
+.card .row .service-card {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    padding-left: 2rem;
+}
+
+.card .price-card {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 230px;
+    padding: 2rem;
+    
+    
+}
+.card>.row{
+    justify-content: space-around;
+}
 
 
 
@@ -161,15 +205,17 @@ nav>ul>li>a {
     }
 
     .banner-input,
-    .popular-tours,
+    .section-1,
     .row {
         flex-direction: column;
 
     }
-    .destination-img{
-        margin-left: 5rem;
+
+    .popular-img>img {
+        max-width: 80%;
     }
-    .popular-text{
-        padding: 0px 1rem 0 0.5rem;
+
+    .destination-img {
+        margin-left: 5rem;
     }
 }
