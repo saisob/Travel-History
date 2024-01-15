@@ -2,10 +2,39 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* reuse-code  */
+.text-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 8.5rem;
 }
 
 nav>ul {
@@ -42,18 +71,25 @@ nav>ul>li>a {
     background: url('Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     text-align: center;
-    height: 600px;
+    min-height: 600px;
     background-position: center;
+    background-size: cover;
+
 }
 
 .banner>.banner-text {
-    padding-top: 7rem;
+    padding-top: 2rem;
 }
 
 .banner-input {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    gap: 7px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 50%;
+    padding: 20px;
+    margin-top: 5rem;
+   
 }
 
 .banner-title {
@@ -64,14 +100,15 @@ nav>ul>li>a {
 
 .banner-description {
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
+    
 }
 
 .banner-input {
     gap: 1rem;
-    padding-top: 2.5rem;
+    align-items: center;
 }
 
 .banner-input>.input-text {
@@ -85,34 +122,33 @@ nav>ul>li>a {
     text-align: center;
 }
 
-.btn {
-    border-radius: 8px;
-    background: #FF5400;
-    width: 174px;
-    height: 52px;
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-}
-
 /* main section-1  */
 .popular-tours {
     display: flex;
-    margin:7rem 8.5rem ;
+    margin-top: 7rem;
 }
 
-.popular-title {
-    color: #131318;
-    font-size: 40px;
-    font-weight: 800;
+.popular-text {
+    padding: 1rem 6rem 1rem 0;
 }
 
-.description {
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
+/* main section-2 */
+.destination {
+    text-align: center;
 }
-.popular-text{
-    padding:1rem 6rem 1rem 0;
+
+
+
+
+
+@media screen and (max-width:477px) {
+    nav {
+        display: none;
+    }
+
+    .banner-input,
+    .popular-tours {
+        flex-direction: column;
+
+    }
 }
