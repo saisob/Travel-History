@@ -1,0 +1,118 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8.5rem;
+}
+
+nav>ul {
+    display: flex;
+
+
+}
+
+nav>ul>li {
+    list-style-type: none;
+    margin-right: 3rem;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
+.color-text {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.history {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.banner {
+    background: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 600px;
+    background-position: center;
+}
+
+.banner>.banner-text {
+    padding-top: 7rem;
+}
+
+.banner-input {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner-input {
+    gap: 1rem;
+    padding-top: 2.5rem;
+}
+
+.banner-input>.input-text {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* main section-1  */
+.popular-tours {
+    display: flex;
+    margin:7rem 8.5rem ;
+}
+
+.popular-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.popular-text{
+    padding:1rem 6rem 1rem 0;
+}
