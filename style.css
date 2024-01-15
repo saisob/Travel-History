@@ -123,32 +123,53 @@ nav>ul>li>a {
 }
 
 /* main section-1  */
-.popular-tours {
+.section-1 {
     display: flex;
     margin-top: 7rem;
 }
 
 .popular-text {
-    padding: 1rem 6rem 1rem 0;
+    padding: 1rem 6rem 1rem 1.5rem;
 }
 
 /* main section-2 */
+.section-2{
+    margin-top: 6rem;
+}
 .destination {
     text-align: center;
+}
+.destination-img{
+    margin: 4rem 1rem 0 1rem;
+}
+.row{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.destination-img>.row>img{
+    width: 50%;
 }
 
 
 
 
 
-@media screen and (max-width:477px) {
+@media screen and (max-width:576px) {
     nav {
         display: none;
     }
 
     .banner-input,
-    .popular-tours {
+    .popular-tours,
+    .row {
         flex-direction: column;
 
+    }
+    .destination-img{
+        margin-left: 5rem;
+    }
+    .popular-text{
+        padding: 0px 1rem 0 0.5rem;
     }
 }
