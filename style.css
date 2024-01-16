@@ -379,5 +379,9 @@ footer>.title>img{
         margin-top: -38%;
         margin-left: 55%;
     }
+    .destination-img>.row>img{
+        width: 100%;
+        margin-left: -40px;
+    }
     
 }
