@@ -163,39 +163,61 @@ nav>ul>li>a {
 .section-3>.heading {
     text-align: center;
 }
-
+.row{
+    display: flex;
+}
 .card .row .hotel-card {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    width: 573px;
-    width: 573px;
-    height: 284px;
-    padding-left: 2rem;
+    width: 35rem;
+    height: 15rem;
+    padding: 2rem;
 }
 
 .card .row .service-card {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 573px;
-    height: 284px;
-    padding-left: 2rem;
+    width: 35rem;
+    height: 15rem;
+    padding: 2rem;
 }
 
 .card .price-card {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width: 573px;
-    height: 230px;
+    width:35rem ;
+    height: 15rem;
     padding: 2rem;
-    
+    margin: auto;
     
 }
 .card>.row{
     justify-content: space-around;
+    gap:1rem;
 }
+.card>.price-card{
+    justify-content: center;
+    align-items: center;
+}
+/* section-4  */
+.section-4{
+    display: flex;
+    margin-top: 7rem;
+}
+.section-vid>video{
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -206,7 +228,8 @@ nav>ul>li>a {
 
     .banner-input,
     .section-1,
-    .row {
+    .row,
+    .section-4 {
         flex-direction: column;
 
     }
@@ -217,5 +240,8 @@ nav>ul>li>a {
 
     .destination-img {
         margin-left: 5rem;
+    }
+    .section-vid{
+        margin-top: 1rem;
     }
 }
