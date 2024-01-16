@@ -76,7 +76,7 @@ nav>.nav-right>ul>li>a {
 }
 
 .banner {
-    background: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background: linear-gradient(to bottom,#070211e1 0%, rgba(7,2,17,0)100%),url('Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     text-align: center;
     min-height: 600px;
