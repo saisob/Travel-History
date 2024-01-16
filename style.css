@@ -163,9 +163,11 @@ nav>ul>li>a {
 .section-3>.heading {
     text-align: center;
 }
-.row{
+
+.row {
     display: flex;
 }
+
 .card .row .hotel-card {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -188,31 +190,67 @@ nav>ul>li>a {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width:35rem ;
+    width: 35rem;
     height: 15rem;
     padding: 2rem;
     margin: auto;
-    
+
 }
-.card>.row{
+
+.card>.row {
     justify-content: space-around;
-    gap:1rem;
 }
-.card>.price-card{
+
+.card>.price-card {
     justify-content: center;
     align-items: center;
 }
+
 /* section-4  */
-.section-4{
+.section-4 {
     display: flex;
     margin-top: 7rem;
 }
-.section-vid>video{
+
+.section-vid>video {
     border-radius: 10px;
 }
 
+.parfect-place {
+    padding: 2rem;
+}
 
+/* section-5  */
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
 
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.newsletter>.input {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    padding-top: 50px;
+}
+
+#input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 90%;
+    height: 52px;
+}
+.newsletter>.input>.btn{
+    width: 90%;
+    
+}
 
 
 
@@ -229,7 +267,8 @@ nav>ul>li>a {
     .banner-input,
     .section-1,
     .row,
-    .section-4 {
+    .section-4,
+    .section-5{
         flex-direction: column;
 
     }
@@ -241,7 +280,9 @@ nav>ul>li>a {
     .destination-img {
         margin-left: 5rem;
     }
-    .section-vid{
+
+    .section-vid {
         margin-top: 1rem;
     }
+
 }
